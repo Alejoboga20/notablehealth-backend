@@ -5,6 +5,10 @@ const PhysiciansSchema = Schema({
 		type: String,
 		required: true,
 	},
+	email: {
+		type: String,
+		required: true,
+	},
 	id: {
 		type: Number,
 		required: true,
