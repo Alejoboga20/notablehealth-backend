@@ -16,5 +16,6 @@ connect();
 
 /* Routing */
 app.use(routePaths.seed, require('./routes/seed'));
+app.use(routePaths.physicians, require('./routes/physicians'));
 
 module.exports = app;

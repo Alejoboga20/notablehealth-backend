@@ -1,4 +1,5 @@
 const routePaths = {
+	physicians: '/api/physicians',
 	seed: '/api/seed',
 };
 
