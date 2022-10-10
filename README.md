@@ -7,7 +7,7 @@ This project was created using [Express](https://expressjs.com/) and [MongoDB](h
 **Prerequisites:**
 
 - NodeJS 14 or Higher
-- Dcoker
+- Docker
 
 To Run locally, a database is needed: Use the following command in the root directory of this project to create a Mongo Database.
 
@@ -35,8 +35,14 @@ yarn install
 yarn dev
 ```
 
-4. Seed Database
+4. Seed Database (you can open the following URL in your web browser)
 
 ```
-GET  http://localhots:3000/api/seed
+GET  http://localhost:3000/api/seed
+```
+
+You should get the following message ir your browser is seed was done.
+
+```
+{"ok":true,"message":"Seed DB"}
 ```
