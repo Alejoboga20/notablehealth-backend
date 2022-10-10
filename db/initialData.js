@@ -2,22 +2,22 @@ const initialData = {
 	physicians: [
 		{
 			name: 'Hibbert, Julius',
-			email: 'physician@email.com',
+			email: 'Hibbert@email.com',
 			id: 1,
 		},
 		{
 			name: 'Krieger, Algernop',
-			email: 'physician@email.com',
+			email: 'Krieger@email.com',
 			id: 2,
 		},
 		{
 			name: 'Riviera, Nick',
-			email: 'physician@email.com',
+			email: 'Riviera@email.com',
 			id: 3,
 		},
 		{
 			name: 'Physician With No Appoinments',
-			email: 'physician@email.com',
+			email: 'Physician@email.com',
 			id: 4,
 		},
 	],
