@@ -9,12 +9,6 @@ This project was created using [Express](https://expressjs.com/) and [MongoDB](h
 - NodeJS 14 or Higher
 - Docker
 
-To Run locally, a database is needed: Use the following command in the root directory of this project to create a Mongo Database.
-
-```bash
-docker-compose up -d
-```
-
 In order to setup the project follow this instructions:
 
 1. Clone the project
@@ -29,13 +23,19 @@ $ git clone https://github.com/Alejoboga20/notablehealth-backend.git
 yarn install
 ```
 
-3. Run Project in development mode
+3. To Run locally, a database is needed: Use the following command in the root directory of this project to create a Mongo Database.
+
+```bash
+docker-compose up -d
+```
+
+4. Run Project in development mode
 
 ```bash
 yarn dev
 ```
 
-4. Seed Database (you can open the following URL in your web browser)
+5. Seed Database (you can open the following URL in your web browser). This sted will load initial data in a mongo database.
 
 ```
 GET  http://localhost:3000/api/seed
