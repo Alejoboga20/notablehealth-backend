@@ -1,0 +1,30 @@
+{
+	"name": "notablehealth-backend",
+	"version": "1.0.0",
+	"description": "Code Challenge Project",
+	"author": "Alejoboga20",
+	"license": "ISC",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Alejoboga20/notablehealt-backend.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Alejoboga20/notablehealt-backend/issues"
+	},
+	"scripts": {
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+	},
+	"homepage": "https://github.com/Alejoboga20/notablehealt-backend#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"mongoose": "^6.6.5"
+	},
+	"devDependencies": {
+		"env-cmd": "^10.1.0",
+		"nodemon": "^2.0.20"
+	}
+}
