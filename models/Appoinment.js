@@ -13,7 +13,7 @@ const AppoinmentSchema = Schema({
 		type: String,
 		required: true,
 	},
-	physiciansId: {
+	physicianId: {
 		type: Number,
 		required: true,
 	},
